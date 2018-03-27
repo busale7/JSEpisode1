@@ -19,9 +19,10 @@
 ****************************************************************/
 function pairs(names) {
   // Your code goes here
-  return [];
 
-
+  if (pairs=[]){
+  	return[]
+  }
 
 }
 
