@@ -19,6 +19,10 @@
 ****************************************************************/
 function pairs(names) {
   // Your code goes here
+  return [];
+
+
+
 }
 
 export default pairs;
