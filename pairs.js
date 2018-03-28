@@ -18,12 +18,22 @@
 *       pairs() returns []
 ****************************************************************/
 function pairs(names) {
-  // Your code goes here
+    // Your code goes here
+	names=names || [];
+	let result= [];
+	
+	while (names.length) {
+		result.push([names.getAndRemoveRandom(), names.getAndRemoveRandom()]);
 
-  if (pairs=[]){
-  	return[]
-  }
 
+	}
+
+	if(names.length !== 0){
+		result.push([names[0]]);
+	}
+
+
+	return result;	
 }
 
 export default pairs;
