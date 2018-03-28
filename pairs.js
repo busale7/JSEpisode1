@@ -19,16 +19,16 @@
 ****************************************************************/
 function pairs(names) {
     // Your code goes here
-	names=names || [];
-	let result= [];
+	names = names || [];
+	let result = [];
 	
 	while (names.length) {
-		result.push([names.getAndRemoveRandom(), names.getAndRemoveRandom()]);
+	  result.push([names.getRandom(), names.getRandom()]);
 
 
 	}
 
-	if(names.length !== 0){
+	if(names.length !== 0) {
 		result.push([names[0]]);
 	}
 
