@@ -22,14 +22,14 @@ function pairs(names) {
 	names = names || [];
 	let result = [];
 	
-	while (names.length) {
+	while (names.length)> 1 {
 	  result.push([names.getRandom(), names.getRandom()]);
 
 
 	}
 
 	if(names.length !== 0) {
-		result.push([names[0]]);
+	  result.push([names[0]]);
 	}
 
 
